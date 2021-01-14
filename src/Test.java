@@ -21,6 +21,8 @@ public class Test {
         System.out.println("args = " + Arrays.deepToString(args));
         System.out.println("Test.main");
         System.out.println("b = " + b);
+
+        System.out.println("Test.main");
     }
 
     /**
