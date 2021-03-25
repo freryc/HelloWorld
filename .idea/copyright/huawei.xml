@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) Huawei Technologies Co., Ltd. ${today.year}-${today.year}. All rights reserved." />
+    <option name="myName" value="huawei" />
+  </copyright>
+</component>

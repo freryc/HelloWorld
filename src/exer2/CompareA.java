@@ -14,6 +14,15 @@ public interface CompareA {
         System.out.println("CompareA:上海");
     }
 
+    /**
+     * <一句话功能简述>.
+     * <功能详细描述>
+     *
+     * @return void
+     * @Param []
+     * @remark create zhouxiaoke 2021年01月14日 需求/BUG编号
+     * @see [类、类#方法、类#成员]
+     */
     default void method3() {
         System.out.println("CompareA:武汉");
     }

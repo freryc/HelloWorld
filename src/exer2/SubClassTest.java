@@ -19,11 +19,13 @@ public class SubClassTest {
     }
 }
 
-class SubClass extends SuperClass implements CompareA,CompareB {
+class SubClass extends SuperClass implements CompareA, CompareB {
+    @Override
     public void method2() {
         System.out.println("SubClass:上海");
     }
 
+    @Override
     public void method3() {
         System.out.println("SubClass:武汉");
     }

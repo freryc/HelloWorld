@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 /**
  * 类中的静态方法要想调用其他public方法，需要先在静态方法中new一个类对象
+ *
+ * @author z00440867
  */
 
 public class StudentTest {
@@ -38,13 +40,12 @@ public class StudentTest {
         for (int i = 0; i < students.length; i++) {
             students[i] = new Student();
             students[i].number = i + 1;
-            students[i].state = (int)(Math.random() * (6 - 1 + 1)) + 1;
-            students[i].score = (int)(Math.random() * (100 + 1));
+            students[i].state = (int) (Math.random() * (6 - 1 + 1)) + 1;
+            students[i].score = (int) (Math.random() * (100 + 1));
         }
     }
 
     /**
-     *
      * @param students 待打印的数组
      */
     public void print(Student[] students) {
@@ -54,7 +55,6 @@ public class StudentTest {
     }
 
     /**
-     *
      * @param students 待查找的数组
      * @param state 指定的年级
      */
@@ -68,6 +68,7 @@ public class StudentTest {
 
     /**
      * 对数组进行冒泡排序
+     *
      * @param students 待排序的数组
      */
     public void sort(Student[] students) {
@@ -85,7 +86,9 @@ public class StudentTest {
 
 class Student {
     int number;
+
     int state;
+
     int score;
 
     /**

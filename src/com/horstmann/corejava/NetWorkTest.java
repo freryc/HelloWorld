@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Huawei Technologies Co., Ltd. 2021-2021. All rights reserved.
+ */
+
 package com.horstmann.corejava;
 
 /*
@@ -8,7 +12,7 @@ public class NetWorkTest {
     public static void main(String[] args) {
         Server server = new Server();
 
-//        server.browse();
+        //        server.browse();
 
         ProxyServer proxyServer = new ProxyServer(server);
 
